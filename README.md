@@ -1,6 +1,8 @@
 # Python-programs
 
 def reverse_an_array(arr):
+    #using two pointer method we can solve this problem p1 is first pointer and p2 is second pointer 
+    #first pointer is placed ar index postion '0' and last pointer pointer fix at end of the array means last element 
     p1 = 0
     p2 = len(arr)-1
     while(p1<p2):
