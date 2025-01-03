@@ -30,3 +30,20 @@ def is_Sorted(arr):
        
 arr=[2,4,6,8,10,12,14]
 print(is_Sorted(arr))
+
+#Remove duplicates from sorted array
+
+ar = [2, 2, 3, 3, 4, 6, 6]
+temp = []
+
+temp.append(ar[0])  # Add the first element to temp
+for i in range(1, len(ar)):
+    if temp[-1] != ar[i]:  # Compare with the last added element in temp
+        temp.append(ar[i])  # Append the unique element to temp
+
+print(temp)
+
+
+
+
+
